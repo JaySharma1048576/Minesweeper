@@ -146,7 +146,7 @@ public class Minesweeper extends Frame implements MouseListener
             {
                 g.drawLine(50+j*square,50,50+j*square,50+rows*square);
             }
-            g.setFont(new Font("Calibri",Font.PLAIN,16));
+            g.setFont(new Font("Calibri",Font.PLAIN,14));
             g.setColor(Color.red);
             g.drawString("Marked "+noofmarked+" / "+mines+" Mines",50,rows*square+80);
             for(int i=0;i<columns;i++)
@@ -233,7 +233,7 @@ public class Minesweeper extends Frame implements MouseListener
                     }
                 }
             }
-            g.setFont(new Font("Cambria Math",Font.PLAIN,16));
+            g.setFont(new Font("Cambria Math",Font.PLAIN,15));
             if(gameover)
             {
                 try
@@ -287,10 +287,10 @@ public class Minesweeper extends Frame implements MouseListener
             g.fillRect(50,180,300,30);
             g.fillRect(50,220,300,30);
             g.fillRect(50,270,300,200);
-            g.setFont(new Font("Lucida Calligraphy",Font.PLAIN,18));
+            g.setFont(new Font("Lucida Calligraphy",Font.PLAIN,16));
             g.setColor(Color.black);
             g.drawString("SETTINGS",50,40);
-            g.setFont(new Font("Cambria",3,16));
+            g.setFont(new Font("Cambria",3,14));
             g.drawString("1. VERY EASY - 7 X 7 Grid, 5 Mines",60,80);
             g.drawString("2. EASY - 10 X 10 Grid, 15 Mines",60,120);
             g.drawString("3. MEDIUM - 16 X 16 Grid, 48 Mines",60,160);
