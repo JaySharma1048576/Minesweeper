@@ -592,33 +592,33 @@ public class Minesweeper extends Frame implements MouseListener
             if(x>=170&&x<=230&&y>=430&&y<=460&&mines<(rows*columns))
             {
                 if(rows==5)
-                square = 100;
+                square = 150;
                 else if(rows==6)
-                square = 80;
+                square = 120;
                 else if(rows==7)
-                square = 70;
+                square = 105;
                 else if(rows <9)
-                square = 60;
+                square = 90;
                 else if(rows<11)
-                square = 50;
+                square = 75;
                 else if(rows<13)
-                square=45;
+                square = 68;
                 else if(rows<15)
-                square = 40;
+                square = 60;
                 else if(rows<18)
-                square = 34;
+                square = 51;
                 else if(rows<21)
-                square = 29;
+                square = 45;
                 else if(rows<25)
-                square = 24;
+                square = 36;
                 else if(rows<31)
-                square = 19;
+                square = 30;
                 else if(rows<37)
-                square = 16;
+                square = 24;
                 else if(rows<45)
-                square = 13;
+                square = 18;
                 else
-                square = 11;
+                square = 15;
                 mode = 1;
                 reset();
                 allocate();
