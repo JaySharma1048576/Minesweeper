@@ -498,7 +498,7 @@ public class Minesweeper extends Frame implements MouseListener
                 rows=7;
                 columns=7;
                 mines=5;
-                square=70;
+                square=175;
                 reset();
                 allocate();
                 mode=1;
@@ -510,7 +510,7 @@ public class Minesweeper extends Frame implements MouseListener
                 rows=10;
                 columns=10;
                 mines=15;
-                square=50;
+                square=125;
                 reset();
                 allocate();
                 mode=1;
@@ -522,7 +522,7 @@ public class Minesweeper extends Frame implements MouseListener
                 rows=16;
                 columns=16;
                 mines=48;
-                square=34;
+                square=85;
                 reset();
                 allocate();
                 mode=1;
@@ -534,7 +534,7 @@ public class Minesweeper extends Frame implements MouseListener
                 rows=25;
                 columns=25;
                 mines=150;
-                square=23;
+                square=58;
                 reset();
                 allocate();
                 mode=1;
@@ -546,7 +546,7 @@ public class Minesweeper extends Frame implements MouseListener
                 rows=40;
                 columns=40;
                 mines=400;
-                square=14;
+                square=35;
                 reset();
                 allocate();
                 mode=1;
